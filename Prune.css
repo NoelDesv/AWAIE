@@ -1,0 +1,64 @@
+body{
+	background-color: #F5F5F5;
+}
+header{
+	height: 120px;
+}
+
+nav{
+	height: 70px;
+	background-color: #9E1694;
+
+	font-size: 25px;
+	font-family: corbel;
+	color: white;	
+}
+
+article{
+	margin: 20px;
+	padding: 30px;
+	background-color: #FFFFFF;
+	height: 1000px;
+	font-family: corbel;
+}
+aside{
+	margin: 20px;
+	width:25%;
+	float: right;
+
+	padding: 20px;
+	border: 3px dotted #9E1694;
+}
+
+footer{
+	height: 200px;
+}
+
+a.menu{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.menu:hover{
+	text-decoration: underline;
+}
+td.menu{
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+#titre{
+	vertical-align: middle;
+	font-size: 100px;
+	font-family: corbel;
+	/*font-variant: small-caps;*/
+	font-weight: lighter;
+	color: #9E1694;
+	text-align: center;
+}
+#prune{
+	color: #9E1694;
+}
+p{
+	padding: 10px;
+}
+/*file:///C:/Users/victo_000/Documents/Etudes/5A/AWAIE/Prune.html#*/

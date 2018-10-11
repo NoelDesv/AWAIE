@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact</title>
+       		<link rel="stylesheet" type="text/css" href="Prune.css" media="all" />
+	</head>
+	<body>
+		<header>
+			<div id="titre"> <img src="prune_logo.png"/>  Prune </div>
+		</header>
+		
+		<nav>
+			<table width=100% height=100%>
+				<tr>
+					<td class="menu"><a href="Accueil.html" class="menu">Accueil</a></td>
+					<td class="menu"><a href="#" class="menu">Nos services</a></td>
+					<td class="menu"><a href="#" class="menu">L'équipe</a></td>
+					<td class="menu"><a href="Contact.html" class="menu">Contact</a></td>
+				</tr>
+			</table>
+		</nav>
+		<article>
+			<h1> Nous contacter </h1>
+			<p> Pour nous envoyer un message veuillez remplir le formulaire ci-dessous.</p>
+			<form>
+				<label> Nom: </label>
+				<input id="contact" name="username" type="text" placeholder="Dupont" required autofocus/>
+				<br/><br/>
+				<label> Prénom: </label>
+				<input id="contact" name="usersurname" type="text" placeholder="Pierre" required/>
+				<br/><br/>
+				<label> Mail: </label>
+				<input id="contact" name="mail" type="email" placeholder="email@exemple.fr" required/>
+				<br/><br/>
+				<label> Message: </label>
+				<input id="contactm" name="message" type="text" placeholder="Votre message ici" required/>
+				<br/><br/>
+				<input type="submit" value="Envoyer"/>
+			</form>
+		</article>
+	</body>
+</html>
