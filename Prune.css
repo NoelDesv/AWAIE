@@ -1,6 +1,11 @@
+/************************************/
+/*Les différentes parties de la page*/
+/************************************/
+
 body{
-	background-color: #F5F5F5;
+	background-color: #F0F0F0;
 }
+
 header{
 	height: 120px;
 }
@@ -21,6 +26,7 @@ article{
 	height: 1000px;
 	font-family: corbel;
 }
+
 aside{
 	margin: 20px;
 	width:25%;
@@ -31,9 +37,25 @@ aside{
 }
 
 footer{
-	height: 200px;
+	height: 100px;
 }
 
+
+/***********************/
+/*Les différents styles*/
+/***********************/
+
+/*Paragraphes*/
+p{
+	padding: 10px;
+}
+
+
+/******************************************/
+/*Les différents styles selon les sections*/
+/******************************************/
+
+/*Les textes du menu*/
 a.menu{
 	color: #FFFFFF;
 	text-decoration: none;
@@ -46,11 +68,16 @@ td.menu{
 	text-align: center;
 	vertical-align: middle;
 }
+
+
+/*********************/
+/*Les parties avec ID*/
+/*********************/
+/*LE titre principal du site*/
 #titre{
 	vertical-align: middle;
 	font-size: 100px;
 	font-family: corbel;
-	/*font-variant: small-caps;*/
 	font-weight: lighter;
 	color: #9E1694;
 	text-align: center;
@@ -58,7 +85,5 @@ td.menu{
 #prune{
 	color: #9E1694;
 }
-p{
-	padding: 10px;
-}
-/*file:///C:/Users/victo_000/Documents/Etudes/5A/AWAIE/Prune.html#*/
+
+/*file:///C:/Users/victo_000/Documents/Etudes/5A/AWAIE/SiteWeb/Prune.html#*/
